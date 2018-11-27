@@ -1,53 +1,50 @@
-void musicPlayerGUI_Setup() {
-  rect(); //Device rectangle with rounded corners
-}
-
-void musicPlayerGUI_Setup() {
-  //rect( , , , , 10); // Device Rectangle with rounded courners, need extra 10 pixels
-  // Option to put gradient
+void musicPLayerGUI_Setup() {
+  rect( width*1/6, height*1/8,width*4/6 ,height*6/8, 10); //Device Rectangle with rounded cornerse
   
-  //Main Button Area, Concentric Rings
+  // Main Button Area Concentric rings
+  ellipse(width*1/2, height*1/2, width*1/2, width*1/2);
   /*
-  ellipse(); //Outer
-  stroke(); //changes the thickness of the line
-  ellipse(); // Middle
-  stroke(1); //resets default
-  ellipse(); //Inside
-  //Option to fill with different colours
-  //fill(); //reminder: reset to defaults each time
-  */
+ ellipse(); //outer
+ //stroke(); // changes thickniss of the line
+ ellipse(); // Middle
+ stroke(); //resets default
+ ellipse(); // Inside
+ //OPtion to fill with different colours
+ //fill(); //reminder: reset to default each time
+ */
   
-  //Play-Pause Button
-  //rect( , , , , 15); //Courners Rounded more than Outer Rectangle, change?
-  //triangle(); //Notice X&Y Coordinates
+  //Player-Pause Button
+  //rect(, , , ,15); //Corners rounded more than outer rectangle, change
+  //triangle(); // Notice X&Y Coordinates
   //line();
-  //line(); 
+  //line();
   
-  //Mext and Previous Buttons
+  //Next and Previous Buttons
   /*
-  triangle(); //Next Button
-  triangle(); 
+  triangle();//Next Button
+  trignalge();
   line();
-  triangle(); //Previous Button
-  triangle(); 
+  triangle();//PRevious Button
+  triangle();
   line();
   */
   
-  //Volume Buttons
-  //line(); //Volume Up
+  // Volume Button
+  //line(); //Volume up
   //line();
   //line(); //Volume Down
   
-  //Colour Fill Power Button
-  //fill(); //Green for Play, Red for not-play, press for end()
-  //ellipse(); 
+  //Color Fill Power Button
+  //fill() // Green For play Red for off, Press for end[]
+ // ellipse();
+ 
+ //Menu Button
+ //ellipse(); //Concetric Rings
+ //ellipse();
+ //ellipse();
+ //ellipse(); //3-dots
+ //ellipse();
+ //ellipse();
   
-  //Menu Button
-  //ellipse(); //Concentric Rings
-  //ellipse(); 
-  //ellipse(); 
-  //ellipse(); //3-dots
-  //ellipse(); 
-  //ellipse(); 
   
 }
